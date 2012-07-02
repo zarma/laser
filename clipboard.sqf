@@ -1,0 +1,1 @@
+copyToClipboard (format["DAGRLAZPOS %1 :DAGRLAZDIST %2 :DAGRLazHeading %3",DAGRLAZPOS,DAGRLAZDIST,DAGRLazHeading]);

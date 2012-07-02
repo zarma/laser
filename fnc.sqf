@@ -1,0 +1,1 @@
+[] call bis_fnc_help;

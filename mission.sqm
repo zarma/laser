@@ -1,0 +1,172 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters_e",
+		"utes",
+		"acex_usnavy_veh_ah1",
+		"ace_c_weapon",
+		"ace_sys_arty",
+		"CAWheeled"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters_e",
+		"acex_usnavy_veh_ah1",
+		"ace_c_weapon",
+		"ace_sys_arty",
+		"CAWheeled",
+		"utes"
+	};
+	randomSeed=6946479;
+	class Intel
+	{
+		briefingName="Test laser";
+		briefingDescription="recueil des infos de pointage";
+		startWeather=0.39999998;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=4;
+		minute=20;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3400.4453,19,3613.1311};
+					azimut=92.627396;
+					id=0;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					text="u1";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=5;
+		class Item0
+		{
+			position[]={3495.2258,19,3611.9585};
+			id=1;
+			side="EMPTY";
+			vehicle="ACE_AH1W_TOW_D";
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={3442.4995,19,3618.6499};
+			id=2;
+			side="EMPTY";
+			vehicle="ACE_USVehicleBox_EP1";
+			skill=0.60000002;
+			init="this addWeapon ""ACE_DAGR""; this addWeapon ""ACE_Map_Tools"";";
+		};
+		class Item2
+		{
+			position[]={3442.4995,19,3602.8081};
+			id=3;
+			side="EMPTY";
+			vehicle="ACE_ArtyEquip_Box";
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={3457.5674,19,3597.6816};
+			id=4;
+			side="EMPTY";
+			vehicle="HMMWV";
+			skill=0.60000002;
+			text="h1";
+		};
+		class Item4
+		{
+			position[]={3466.2612,19,3597.5452};
+			id=5;
+			side="EMPTY";
+			vehicle="HMMWV";
+			skill=0.60000002;
+			text="h2";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=16207554;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=4061031;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=2934521;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};

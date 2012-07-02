@@ -1,0 +1,1 @@
+['message','"call updt"','"code"'] call z_fnc_sql_upd;
